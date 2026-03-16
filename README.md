@@ -1,29 +1,32 @@
 # Number Analysis API
 
-A Spring Boot REST API that analyzes numbers and stores results in a database.
+Spring Boot REST API that analyzes numbers and stores results in a database.
 
 ## Features
 
-- Detects if a number is even or odd
-- Calculates square of a number
-- Checks if a number is prime
-- Categorizes numbers into ranges
-- Stores results in a database
+- Check if a number is even
+- Check if a number is prime
+- Calculate square
+- Categorize number range
+- Store results in database
 - Retrieve history of analyzed numbers
-- Query history by number
-- API documentation using Swagger
+- Swagger API documentation
 
----
-
-## Technologies Used
+## Technologies
 
 - Java 17
 - Spring Boot
 - Spring Data JPA
 - H2 Database
+- Maven
 - Swagger / OpenAPI
 
----
+## API Documentation
+
+Swagger UI:
+
+http://localhost:8080/swagger-ui/index.html
+
 
 ## API Endpoints
 
